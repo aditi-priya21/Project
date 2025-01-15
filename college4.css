@@ -1,0 +1,71 @@
+.background {
+    height: 800px;
+    width: 100vw;
+    background-color: rgb(124, 117, 117);
+    display: grid;
+    grid-template-columns: repeat(10,10vw) ;
+    grid-template-rows: repeat(6,133.33px) ;
+}
+.frontback{
+    grid-row: 1/5;
+    grid-column: 2/10;
+    background: linear-gradient(blue,rgb(112, 112, 227),rgb(80, 80, 237));
+    border-radius: 20px;
+    display: grid;
+}
+.bottomback{
+    grid-column:1/11 ;
+    grid-row: 3/6;
+    background-color: aliceblue;
+    border-radius: 70px;
+    border-bottom: 5px solid black;
+}
+.frontback img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    margin: 50px;
+    margin-left: 90px;
+    border-top: 5px solid green;
+    border-left: 5px solid blue;
+    border-right: 5px solid yellow;
+    border-bottom: 5px solid red;
+}
+.content{
+    grid-row: -6/-5;
+    grid-column: 5/7;
+    margin: 5px;
+    padding: 60px;
+}
+.top{
+    justify-items: center;
+}
+.bottomback img{
+    height: 200px;
+    width: 200px;
+margin: 5px;
+border-radius: 10px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+}
+.many{
+    justify-items: center;
+}
+.names{
+    display: flex;
+    justify-content:space-around;
+}
+.connection{
+    display: flex;
+    justify-content: center;
+}
+.home i{
+height: 10px;
+width: 10px;
+}
+.home{
+    display: flex;
+    justify-content: center;   
+}

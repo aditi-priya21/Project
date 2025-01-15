@@ -1,0 +1,55 @@
+
+
+.techimage img {
+    height: 150px;
+    width: 200px;
+}
+
+.sportimage img{
+    height: 150px;
+    width: 200px;
+}
+.danceimage img{
+    height: 150px;
+    width: 200px;
+}
+.clubimage img{
+    height: 150px;
+    width: 200px;
+    margin: 3px;
+    border: 2px solid black;
+}
+.campuslife{
+    display: flex;
+    justify-content: center;
+}
+.club{
+    display: flex;
+    justify-content: center;
+}
+
+
+.admission{
+    display: flex;
+    justify-content: center;
+}
+.link a{
+    text-decoration: none;
+    font-size: larger;
+    color: rgb(9, 8, 8) ;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+
+}
+.link{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+.go:hover{
+    background-color: black;
+    color: aliceblue;
+}
